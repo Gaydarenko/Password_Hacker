@@ -98,4 +98,3 @@ with socket.socket() as my_socket:
         login = get_login(login_file)
         password = get_password(login)
         print(json.dumps({"login": login, "password": password}))
-
